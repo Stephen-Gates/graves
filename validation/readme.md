@@ -18,18 +18,19 @@ Each sub-folder in this folder is named for the condition being tested, and cont
 
 ## List of tests
 
-Implemented tests are listed below. Click the link to go to the test's sub-directory.
+**Implemented tests** are listed below. Click the link to go to the test's sub-directory.
 
-Other test ideas are listed in **[Potential tests](test-ideas.md)**.
+1. [EmptyGrave contains 0 Remains](EmptyGrave-contains-zero-remains/readme.md)
+1. [Grave contains at least 1 Remains](Grave-contains-at-least-one-remains/readme.md)
 
-1. **[EmptyGrave contains 0 Remains](/EmptyGrave-contains-zero-remains)**
-1. **[Grave contains at least 1 Remains](/Grave-contains-at-least-one-remains)**
+See a list of other **[test ideas](test-ideas.md)**.
+
 
 ## How to create a SHACL test
 
 This approach is designed to make it easy to develop tests and minimise the software needed to be installed. 
 
-Go to [SHACL Play!](https://shacl-play.sparna.fr/play/) and select the **[SHACL editor from Excel](https://shacl-play.sparna.fr/play/shaclexcel)** tool, and follow the steps:
+Go to **[SHACL Play!](https://shacl-play.sparna.fr/play/)** and select the **[SHACL editor from Excel](https://shacl-play.sparna.fr/play/shaclexcel)** tool, and follow the steps:
 
 1. Download the template file (a local copy is in `/validation/SHACL-template.xlsx`).
 1. Fill in the spreadsheet.
